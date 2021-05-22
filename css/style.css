@@ -1,0 +1,543 @@
+
+
+:root{
+    --blanc: #fff;
+    --noir: #000;
+    --orange: #ff5a00;
+    --orangeclair: #fadccc;
+    --bleu: #45fafa;
+    --roseClair: #faebfa;
+    --ver: #008000;
+    --verclair: #c9fac9;
+    --bleuspan: #006bff;
+    --bleuclair: #c5dcfc;
+    --rouge: #ff0000;
+    --rougeclair: #f7adad;
+
+}
+*{
+    padding: 5px;
+}
+nav{
+    height: 80px;
+}
+.navimg{
+    position: relative;
+    top: -10px;
+    left: 120px;
+}
+.navimg figure img{
+    height: 40px;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+.navimg figure figcaption {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+    right: 15px;
+    font-weight: bold;
+}
+nav ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    top: -85px;
+    padding-right: 0;
+    padding-left: 0;
+    color: var(--noir);
+}
+nav ul li a:hover{
+    color: var(--orange);
+}
+.a1{
+    text-decoration: underline;
+    color: var(--orange);
+}
+.a1 a{
+    color: var(--orange);
+}
+.icns{
+    position: relative;
+    top: -5px;
+    left: 200px;
+}
+.icns i{
+    color: var(--orange);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+/*-----------------------End navbar----------------------------*/
+.headerbg{
+    background-image: url('../images/innondation.jpg');
+    background-size: cover;
+    margin-top: 10px;
+    height: 590px;
+}
+.headerText{
+    text-align: center;
+    color: var(--blanc);
+    position: relative;
+    top: 190px;
+}
+.headerText h1{
+    font-weight: bold;
+}
+.Headlink{
+    margin-top: 50px;
+}
+.Headlink a{
+    text-decoration: none;
+    margin: 7px;
+    position: relative;
+    left: 400px;
+}
+.don{
+    color: var(--blanc);
+    border: 2px solid var(--blanc);
+    border-radius: 7px;
+}
+.don:hover{
+    color: var(--blanc);
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    border-radius: 7px;
+
+}
+.contact{
+    color: var(--blanc);
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    border-radius: 7px;
+}
+.contact:hover{
+    background-color: var(--blanc);
+    color: var(--orange);
+}
+/*---------------------End main headerbg------------------*/
+.img{
+    position: relative;
+    left: 90px;
+}
+.imgL1 img{
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.imgL2 img{
+    width: 250px;
+    height: 100px;
+    margin-top: -10px;
+    padding: 0;
+    position: relative;
+    left: 60px;
+}
+.imgL3 img{
+    width: 200px;
+    height: 90px;
+    margin: -10px 0 0 0;
+    padding: 0;
+}
+.imgL4 img{
+    width: 200px;
+    height: 150px;
+    margin: -10px 0 0 0;
+    padding: 0;
+    position: relative;
+    left: 70px;
+}
+/*-----------------End div img-------------------*/
+.rightcol{
+    position: relative;
+    top: 80px;
+    left: 10px;
+    font-size: 12px;
+}
+.titre{
+    margin: 0;
+    padding: 0;
+}
+.titre h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.titre p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.purus1{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 7px;
+}
+.purus1 h1{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.purus1 p{
+    padding: 0;
+    margin: 0;
+}
+.purus1 .ic i{
+    color: blue;
+}
+/*--------------End section1-----------------*/
+.section2{
+    background-color: var(--roseClair);
+}
+.sect2Titre{
+    text-align: center;
+    margin-top: 50px;
+}
+.sect2Titre h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+.sect2Img img{
+    width: 300px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+.sect2Img{
+    position: relative;
+    left: 20px;
+}
+.imgsect1{
+    position: relative;
+    left: 110px;
+}
+.imgsect3{
+    position: relative;
+    right: 110px;
+}
+.sect2Img figcaption{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    position: relative;
+    right: 50px;
+}
+.sect2Img figcaption h1{
+    margin: 0;
+    padding:0 ;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--orange);
+}
+/*---------------------End sect2Img---------------*/
+.chiffres h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 50px;
+    position: relative;
+    right: 50px;
+}
+.chif h1{
+    font-size: 20px;
+}
+.ch1{
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.ch1 h1{
+    position: relative;
+    top: -95px;
+    right: 50px;
+}
+.svg1{
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+.svg1 circle{
+    fill: none;
+    stroke: var(--ver);
+    stroke-width: 13px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 440;
+    /*stroke-dashoffset: 440;*/
+    stroke-dashoffset: 330;
+}
+.svg1 circle:nth-child(1){
+    stroke: var(--verclair);
+    stroke-dashoffset: 0;
+}
+.svg1 circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+
+.span1{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--ver);
+    transform: translate(-30%, -30%);
+
+}
+/*---------------End div ch1------------------*/
+.ch2{
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.ch2 h1{
+    position: relative;
+    top: -95px;
+    right: 50px;
+}
+.svg2{
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+.svg2 circle{
+    fill: none;
+    stroke: var(--orange);
+    stroke-width: 13px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 380;
+}
+.svg2 circle:nth-child(1){
+    stroke: var(--orangeclair);
+    stroke-dashoffset: 0;
+}
+.svg2 circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+.span2{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--orange);
+    transform: translate(-30%, -30%);
+}
+/*------------------End div ch2----------------*/
+.ch3{
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.ch3 h1{
+    position: relative;
+    top: -95px;
+    right: 50px;
+}
+.svg3{
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+.svg3 circle{
+    fill: none;
+    stroke: var(--bleuspan);
+    stroke-width: 13px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 250;
+}
+.svg3 circle:nth-child(1){
+    stroke: var(--bleuclair);
+    stroke-dashoffset: 0;
+}
+.svg3 circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+.span3{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--bleuspan);
+    transform: translate(-30%, -30%);
+}
+/*--------------------End ch3------------------*/
+.ch4{
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.ch4 h1{
+    position: relative;
+    top: -95px;
+    right: 50px;
+}
+.svg4{
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+.svg4 circle{
+    fill: none;
+    stroke: var(--rouge);
+    stroke-width: 13px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 90;
+}
+.svg4 circle:nth-child(1){
+    stroke: var(--rougeclair);
+    stroke-dashoffset: 0;
+}
+.svg4 circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+.span4{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--rouge);
+    transform: translate(-30%, -30%);
+}
+/*---------------End section2-----------------*/
+.section3 h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sect3Img div img{
+    width: 200px;
+    height: 180px;
+}
+.img1 figure{
+    border-radius: 7px;
+    border: 1px solid var(--bleu);
+    margin: 40px;
+}
+.img1 figure img{
+    height: 135px;
+    width: 200px;
+}
+.img1 figure figcaption{
+    font-weight: bold;
+    text-align: center;
+}
+.img2 img{
+    border-radius: 7px;
+    border: 1px solid var(--bleu);
+    height: 500px;
+    margin: 40px;
+}
+.img3 img{
+    border-radius: 7px;
+    border: 1px solid var(--bleu);
+    margin: 40px;
+}
+
+/*---------------------End section3----------------*/
+footer{
+    background-image: url('../images/groupe.jpg');
+    background-size: cover;
+    height: 590px;
+    
+}
+.foothead{
+    color: var(--blanc);
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+.foothead img{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 35px;
+}
+.foothead figcaption{
+    text-align: center;
+    position: relative;
+    left: 25px;
+    margin: 0;
+    padding: 0;
+}
+.foothead p{
+    position: relative;
+    left: 25px;
+}
+.center{
+    text-align: center;
+    color: var(--blanc);
+    position: relative;
+    left: 350px;
+    top: 40px;
+}
+.center h1{
+    font-weight: bold;
+}
+.centerText h1{
+    margin-bottom: 40px;
+}
+.center .fud{
+    text-decoration: none;
+    color: var(--blanc);
+    border: 2px solid var(--blanc);
+    border-radius: 7px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.center .fud:hover{
+    background-color: var(--orange);
+}
+.icons ul{
+    position: relative;
+    top: 20px;
+}
+.icons ul li{
+    list-style: none;
+    position: relative;
+    left: 40px;
+}
+.icons ul li a{
+    text-decoration: none;
+    
+}
+.icons ul li a i{
+    color: var(--orange);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.copyr{
+    text-align: center;
+    color: var(--blanc);
+    position: relative;
+    top: 230px;
+    right: 50px;
+}
